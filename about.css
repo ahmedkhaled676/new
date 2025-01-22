@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    scroll-behavior: smooth;
+}
+
+
+
+header {
+    background-color: aliceblue;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+
+.logo {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+
+.navication a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 50px;
+}
+.navication a:hover {
+    color: rgb(179, 26, 26);
+}
+section {
+    padding: 100px 200px;
+}
+.main {
+    width: 10;
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    background-attachment: fixed;
+}
+
+
+
+.about {
+    background: url(a.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.about .content {
+    margin-top: 30px;
+}
+
+
+
+
+.project-card {
+    background-color: white;
+    min-height: 14em;
+    border: 1px solid white;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+ .about .title{
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 60px;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.about .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.project-card:hover {
+    transform: scale(1.1);
+}
+.project-image img  {
+    width: 100%;
+}
+.gallery {
+    background-color:white;
+}
+
+
+.gallery .content {
+    margin-top: 30px;
+}
+
+.gallery .title {
+    color: brown;
+    font-size: 50px;
+    font-weight: 800;
+}
+.gallery .img-gallery img {
+    min-height: 10em;
+    border: 0.8px solid white;
+    width: 30%;
+    overflow: hidden;
+    border-radius: 30px;
+    margin: 10px ;
+    transition: 0.7s ease;
+}
+.img-gallery img:hover  {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.img-gallery img {
+    margin-top: 2.2em;
+    justify-content: center;
+    height: 400px;
+    
+}
