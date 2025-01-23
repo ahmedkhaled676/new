@@ -8,6 +8,6 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     if ( loginEmail &&loginPassword) {
         alert('تم تسجيل الدخول بنجاح!');
        
-        window.location.href = "home.html"; 
+        window.location.href = "index.html"; 
     } 
 });
